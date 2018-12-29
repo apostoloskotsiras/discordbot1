@@ -1,5 +1,4 @@
 const botconfig = require("./botconfig.json");
-const token = require("./token.json");
 const Discord = require("discord.js");
 
 const bot = new Discord.Client({disableEveryone: true});
@@ -160,4 +159,4 @@ bot.on("message", async message => {
 
 })
 
-bot.login(tokenfile.token)
+bot.login("NTI4NDc5MjYyMzk5NzkxMTA0.Dwi4Pg.xDaGVUxTLssZ_l4RuSiC9V6cZSU")
